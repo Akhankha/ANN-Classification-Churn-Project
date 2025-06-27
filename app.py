@@ -1,6 +1,4 @@
 import streamlit as st
-st.cache_data.clear()
-
 import numpy as np
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
